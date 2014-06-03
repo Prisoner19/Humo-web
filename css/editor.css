@@ -1,0 +1,124 @@
+html {
+  height: 100%;
+}
+body {
+  background: #b1b7bd;
+  font-family: Electrolize;
+  font-size: 17px;
+  text-align: center;
+  height: 100%;
+}
+@font-face {
+  font-family: Electrolize;
+  font-style: normal;
+  src: url("fonts/Electrolize.ttf");
+}
+@font-face {
+  font-family: squares;
+  font-style: normal;
+  src: url("fonts/squares.ttf");
+}
+.sidebar {
+  border-right: 1px solid #0d5f97;
+  border-left: 1px solid #0d5f97;
+  background: #dadee3;
+  padding: 0;
+  position: absolute;
+  width: 230px;
+  height: 100%;
+}
+.sidebar .contenedor-logo {
+  margin-top: 40px;
+}
+.sidebar .botones-maestros {
+  height: 40px;
+  line-height: 40px;
+  margin: 40px 0 30px 0;
+  width: 100%;
+}
+.sidebar .botones-maestros .agregar {
+  border-right: 2px solid #0d5f97;
+  border-top: 2px solid #0d5f97;
+  border-bottom: 2px solid #0d5f97;
+  float: left;
+  width: 50px;
+  height: 35px;
+  color: #0d5f97;
+  font-family: squares;
+  font-size: 60px;
+  text-decoration: none;
+}
+.sidebar .botones-maestros .eliminar {
+  border-left: 2px solid #0d5f97;
+  border-top: 2px solid #0d5f97;
+  border-bottom: 2px solid #0d5f97;
+  float: right;
+  width: 50px;
+  height: 35px;
+  color: #0d5f97;
+  font-family: squares;
+  font-size: 60px;
+  text-decoration: none;
+}
+.sidebar .selector-niveles {
+  display: block;
+  height: 588px;
+  overflow-y: auto;
+}
+.sidebar .selector-niveles .niveles {
+  line-height: 30px;
+  float: left;
+  padding: 0 10% 0 10%;
+  width: 80%;
+}
+.sidebar .selector-niveles .niveles li {
+  display: block;
+}
+.sidebar .selector-niveles .niveles li a {
+  border: 1px solid #0d5f97;
+  color: #0d5f97;
+  display: block;
+  font-size: 15px;
+  padding: 0.2em;
+  text-decoration: none;
+}
+.sidebar .botones-persistencia {
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  margin-top: 40px;
+}
+.sidebar .botones-persistencia .guardar {
+  border-right: 2px solid #0d5f97;
+  border-top: 2px solid #0d5f97;
+  border-bottom: 2px solid #0d5f97;
+  float: left;
+  width: 50px;
+  height: 35px;
+  color: #0d5f97;
+  font-family: squares;
+  font-size: 30px;
+  text-decoration: none;
+}
+.sidebar .botones-persistencia .descartar {
+  border-left: 2px solid #0d5f97;
+  border-top: 2px solid #0d5f97;
+  border-bottom: 2px solid #0d5f97;
+  float: right;
+  width: 50px;
+  height: 35px;
+  color: #0d5f97;
+  font-family: squares;
+  font-size: 30px;
+  text-decoration: none;
+}
+.contenido {
+  position: absolute;
+  left: 230px;
+}
+.contenido .titulo-nivel {
+  position: relative;
+  font-family: Electrolize;
+  font-weight: lighter;
+  left: 20px;
+}

@@ -1,0 +1,131 @@
+azul = #0D5F97
+gris = #DADEE3
+gris_oscuro = #B1B7BD
+
+html
+	height 100%
+
+body
+	background gris_oscuro
+	font-family Electrolize
+	font-size 17px
+	text-align center
+	height 100%
+
+@font-face
+	font-family Electrolize
+	font-style normal
+	src url(fonts/Electrolize.ttf)
+
+@font-face
+	font-family squares
+	font-style normal
+	src url(fonts/squares.ttf)
+
+.sidebar
+	border-right 1px solid azul
+	border-left 1px solid azul
+	background gris
+	padding 0
+	position absolute
+	width 230px
+	height 100%
+
+	.contenedor-logo
+		margin-top 40px
+	
+	.botones-maestros
+		height 40px
+		line-height 40px
+		margin 40px 0 30px 0
+		width 100%
+
+		.agregar
+			border-right 2px solid azul
+			border-top 2px solid azul
+			border-bottom 2px solid azul
+			float left
+			width 50px
+			height 35px
+			color azul
+			font-family squares
+			font-size 60px
+			text-decoration none
+			
+		.eliminar
+			border-left 2px solid azul
+			border-top 2px solid azul
+			border-bottom 2px solid azul
+			float right
+			width 50px
+			height 35px
+			color azul
+			font-family squares
+			font-size 60px
+			text-decoration none
+
+
+	.selector-niveles
+		display block
+		height 588px
+		overflow-y auto
+
+		.niveles
+			line-height 30px
+			float left
+			padding 0 10% 0 10%
+			width 80%
+
+			li
+				display block
+
+				a
+					border 1px solid azul
+					color azul
+					display block
+					font-size 15px
+					padding 0.2em
+					text-decoration none
+
+	.botones-persistencia
+		height 40px
+		line-height 40px
+		width 100%
+		margin-top 40px
+
+		.guardar
+			border-right 2px solid azul
+			border-top 2px solid azul
+			border-bottom 2px solid azul
+			float left
+			width 50px
+			height 35px
+			color azul
+			font-family squares
+			font-size 30px
+			text-decoration none
+			
+		.descartar
+			border-left 2px solid azul
+			border-top 2px solid azul
+			border-bottom 2px solid azul
+			float right
+			width 50px
+			height 35px
+			color azul
+			font-family squares
+			font-size 30px
+			text-decoration none
+
+.contenido
+	position absolute
+	left 230px
+
+	.titulo-nivel
+		position relative
+		font-family Electrolize
+		font-weight lighter
+		left 20px
+
+
+
